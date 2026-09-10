@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (never commit images/labels)
+raw/
+unified/
+fine/
+downloads/
+
+# Training outputs & caches
+runs/
+pip_cache/
+tmp/
+*.cache
+
+# Realtime demo snapshots
+realtime_snaps/
+
+# Local weights (Release assets are the distribution channel)
+weights/
+*.pt
+*.onnx
+*.engine
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

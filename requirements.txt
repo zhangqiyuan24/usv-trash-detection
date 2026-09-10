@@ -1,0 +1,13 @@
+# Core detection stack.
+# PyTorch/torchvision are installed by scripts/setup_env.ps1 with the CUDA wheel
+# index (cu124). If you install manually and want GPU, see docs/1-setup.md;
+# CPU-only works too (inference/training will just be slower).
+ultralytics>=8.3.0
+
+# Imaging / utilities
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyyaml>=6.0
+
+# Optional: ONNX runtime for export_onnx.py inference checks (pip install onnxruntime-gpu if CUDA)
+# onnxruntime>=1.17.0
